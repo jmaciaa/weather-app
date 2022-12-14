@@ -1,0 +1,11 @@
+.searchbar {
+  margin: 2rem auto;
+  color: var(--main-bg-color);
+  width: 400px;
+}
+
+@media (max-width: 600px) {
+  .searchbar {
+    max-width: 85vw;
+  }
+}

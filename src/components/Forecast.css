@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  border-radius: 20px;
+  background: var(--card-bg-color);
+}
+
+.temps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temp {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.min_max {
+  color: var(--secondary-text-color);
+  font-size: 0.8rem;
+}
